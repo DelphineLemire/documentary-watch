@@ -16,4 +16,4 @@ jobs:
       - name: Check if documentation can be built
         run: poetry run mkdocs build -s
 
-      - run: poetry run mkdocs gh-deploy --config-file ../mkdocs.yml
+      - run: poetry run mkdocs gh-deploy --config-file ../mkdocs.yml docs
