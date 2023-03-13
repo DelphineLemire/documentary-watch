@@ -15,5 +15,5 @@ jobs:
       - uses: Gr1N/setup-poetry@v8
       - run: poetry --version
       - run: poetry install --with docs
-      - run: poetry run mkdocs gh-deploy -b gh-pages -f mkdocs.yml
+      - run: poetry run mkdocs gh-deploy -b gh-pages -f mkdocs.yml --force
 
