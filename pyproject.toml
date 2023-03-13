@@ -3,7 +3,7 @@ name = "documentary-watch"
 version = "0.1.0"
 description = ""
 authors = ["DelphineLemire <delphine.lemire@gmail.com>"]
-readme = "README.md"
+readme = "docs/README.md"
 packages = [{include = "documentary_watch"}]
 
 [tool.poetry.dependencies]
