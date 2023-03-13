@@ -1,5 +1,5 @@
-# Message curation
-DelphineLemire/message_curation
+# Documentary Watch
+DelphineLemire/documentary-watch
 
 License : GPLv3
 
@@ -22,10 +22,9 @@ providing generic functionalities to any web application.
 For example, with django , I can quickly develop info admin screens and the notions of authentication 
 and access rights are natively made available.
 
-### cookiecutter-django and poetry
+### Poetry
 
-I was inspired by [cookiecutter-django](https://github.com/cookiecutter/cookiecutter-django) to reproduce 
-the skeleton of django's application, and [cookiecutter-poetry](https://fpgmaas.github.io/cookiecutter-poetry/) to adapt the 
+I was inspired by [cookiecutter-poetry](https://fpgmaas.github.io/cookiecutter-poetry/) to adapt the 
 project to the poetry package manager.
 
 
