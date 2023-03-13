@@ -40,4 +40,5 @@ License : GPLv3
 
 # Summary
 -  [Install](./INSTALL.md)
+-  [Develop](./DEVELOP.md)
 -  [Todo's list](./TODO.md)
