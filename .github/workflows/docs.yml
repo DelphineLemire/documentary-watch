@@ -1,13 +1,10 @@
-name: build
-on:
-  push:
-    branches:
-      - main
-jobs:
-  deploy-docs:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out
-        uses: actions/checkout@v3
+steps:
+  - uses: actions/checkout@v3
+  - uses: actions/setup-python@v4
+    with:
+      python-version: "3.11"
+  - uses: Gr1N/setup-poetry@v8
+  - run: poetry --version
+  - run: poetry install --with docs
+  - run: poetry run mkdocs gh-deploy -b gh-pages -f mkdocs.yml
 
-      - run: mkdocs gh-deploy -b gh-pages --config-file ../mkdocs.yml -d docs
