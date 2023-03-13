@@ -1,0 +1,8 @@
+/.envrc
+/.env
+/.coverage
+/documentary_watch.db
+/.venv/
+/.pytest_cache/
+/site/
+/.idea/

@@ -1,0 +1,49 @@
+site_name: Documentary watch
+repo_url: https://github.com/DelphineLemire/documentary-watch
+site_url: https://github.com/DelphineLemire/documentary-watch
+site_description: It is a tool for organize my documentary watch . When I read posts website,
+        sometimes, I would like to read other old posts on the same topic but I can't find them.
+        This tool should allow me to keep an overview on a given subject.
+        This project is for my personal use but I share on public repository as a portfolio's project.
+site_author: Delphine Lemire
+edit_uri: edit/main/docs/
+repo_name: DelphineLemire/documentary-watch
+copyright: Maintained by <a href="https://delphinelemire.fr">Delphine</a>.
+
+nav:
+  - Home: README.md
+  - Install: INSTALL.md
+  - Develop: DEVELOP.md
+  - Todo: TODO.md
+  - Models : MODELS.md
+
+plugins:
+  - search
+  - mkdocstrings
+theme:
+  name: material
+  feature:
+    tabs: true
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
