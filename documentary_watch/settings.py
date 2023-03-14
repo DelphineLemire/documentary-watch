@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 from pathlib import Path
+from typing import List  # noqa: F401
 
 import environ
 
@@ -34,7 +35,7 @@ SECRET_KEY = env.str('SECRET_KEY', "hdfkjhfkjsclkdkfjrsd;,jl55633254dsffs")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env.bool('DEBUG', False)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = []  # type: List[str]
 
 
 # Application definition
@@ -48,6 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # documentary-watch's apps
     'users',
+    'contributors',
 ]
 
 MIDDLEWARE = [

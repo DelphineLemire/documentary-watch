@@ -1,1 +1,2 @@
 ::: users.models
+::: contributors.models

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "documentary-watch"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["DelphineLemire <delphine.lemire@gmail.com>"]
 readme = "docs/README.md"
@@ -13,7 +13,7 @@ python = "^3.9"
 # ------------------------------------------------------------------------------
 django = "4.1.7"  # https://www.djangoproject.com/
 django-environ = "0.10.0" # https://github.com/joke2k/django-environ
-django-allauth ="0.52.0"  # https://github.com/pennersr/django-allauth
+#django-allauth ="0.52.0"  # https://github.com/pennersr/django-allauth
 
 [tool.poetry.group.dev.dependencies]
 django-debug-toolbar = "3.8.1"  # https://github.com/jazzband/django-debug-toolbar
@@ -35,6 +35,13 @@ deptry = "^0.8.0" # https://github.com/fpgmaas/deptry
 
 pytest = "7.2.2"  # https://github.com/pytest-dev/pytest
 pytest-cov = "4.0.0" # https://github.com/pytest-dev/pytest-cov
+pytest-sugar = "0.9.6" # https://github.com/Teemu/pytest-sugar/
+
+# Testing Djangp
+pytest-django = "4.5.2" # https://github.com/pytest-dev/pytest-django
+factory-boy = "3.2.1"  # https://github.com/FactoryBoy/factory_boy
+django-coverage-plugin = "3.0.0" # https://github.com/nedbat/django_coverage_plugin
+
 
 [tool.poetry.group.docs]
 optional = true
@@ -112,3 +119,36 @@ ignore = [
 
 [tool.ruff.per-file-ignores]
 "*/tests/*" = ["S101"]
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "documentary_watch.settings_test"
+
+[tool.coverage.report]
+skip_empty = true
+
+[tool.coverage.run]
+omit = ["*migrations*", "*tests*"]
+plugins = ["django_coverage_plugin"]
+
+[tool.deptry]
+#skip_obsolete = true
+#skip_missing = true
+#skip_transitive = true
+#skip_misplaced_dev = true
+
+ignore_obsolete = [
+    "crispy-bootstrap5",
+    "django-crispy-forms",
+    "django-model-utils",
+    "whitenoise"
+
+]
+ignore_missing = [
+    "factory",
+
+
+]
+ignore_transitive = [
+    "pytest",
+
+]
