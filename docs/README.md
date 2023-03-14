@@ -3,6 +3,8 @@ DelphineLemire/documentary-watch
 
 License : GPLv3
 
+[Documentation](https://delphinelemire.github.io/documentary-watch/)
+
 ## Why? 
 
 It is a tool for organize my documentary watch . When I read posts website, 
@@ -35,10 +37,3 @@ I chose [ruff](https://github.com/charliermarsh/ruff) recommended by the cookiec
 number of tools, in particular the versions of flake8 and it integrates perfectly with poetry.
 
 Do not hesitate to comment to improve it. 
-
-License : GPLv3
-
-# Summary
--  [Install](./INSTALL.md)
--  [Develop](./DEVELOP.md)
--  [Todo's list](./TODO.md)
