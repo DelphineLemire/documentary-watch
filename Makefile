@@ -22,7 +22,7 @@ test: ## Test the code with pytest.
 
 .PHONY: docs-test
 docs-test: ## Test if documentation can be built without warnings or errors
-	@mkdocs build -s
+	@mkdocs build -s -v
 
 .PHONY: docs
 docs: ## Build and serve the documentation
