@@ -3,8 +3,8 @@
 ## In the first time, I would develop admin's screens
 
  - [X] As an admin, I can manage contributor; e.g. post's author, person interviewed in a podcast.
- - [] As an admin, I can manage theme; e.g.  Finance, Human Resource, Information Technology
- - [] As an admin, I can manage topic per theme; e.g. invoices in digital format
+ - [X] As an admin, I can manage theme; e.g.  Finance, Human Resource, Information Technology
+ - [X] As an admin, I can manage topic per theme; e.g. invoices in digital format
  - [] As an Admin, I Manage contribution per contact, on a theme
 
 ## In the second time, I would develop front's screens

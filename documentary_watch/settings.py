@@ -50,6 +50,8 @@ INSTALLED_APPS = [
     # documentary-watch's apps
     'users',
     'contributors',
+    'various',
+    'contributions',
 ]
 
 MIDDLEWARE = [
