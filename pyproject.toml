@@ -53,6 +53,7 @@ optional = true
 # mkdocs = "^1.4.2"
 mkdocs = {version = "^1.4.2", extras = ["i18n"]} # https://github.com/mkdocs/mkdocs
 mkdocs-material = "9.1.2" # https://github.com/squidfunk/mkdocs-material
+mkdocs-static-i18n = "0.54" # https://github.com/ultrabug/mkdocs-static-i18n
 pymdown-extensions = "9.10" # https://github.com/facelessuser/pymdown-extensions
 mkdocstrings = {extras = ["python"], version = "^0.20.0"} # https://github.com/mkdocstrings/mkdocstrings
 
