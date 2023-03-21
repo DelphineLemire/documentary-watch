@@ -5,7 +5,7 @@ license = "GPL-3.0-or-later"
 description = ""
 
 authors = ["DelphineLemire <delphine.lemire@gmail.com>"]
-readme = "docs/en/README.md"
+readme = "docs/README.md"
 packages = [{include = "documentary_watch"}]
 
 [tool.poetry.dependencies]
