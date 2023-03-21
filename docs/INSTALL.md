@@ -1,5 +1,6 @@
-# Prerequisite
+# Installation
 
+## Prerequisite
 
 This project use: 
 
@@ -8,20 +9,20 @@ This project use:
 and much more. 
 - [Nodejs](https://nodejs.org/en), [npm](https://www.npmjs.com/) to manage assets
 
-# Installation 
+## Installation 
 
 This application use [Django's framework](https://www.djangoproject.com/).
 Please get closer to the documentation for the handling of this project.
 
-## For test purpose
+### For test purpose
 
-### Clone
+#### Clone
 
 Clone the repository locally
 ```
 $ git clone https://github.com/DelphineLemire/documentary-watch.git
 ``` 
-### Install virtual environment
+#### Install virtual environment
 
 Activate virtual environment
 ```
@@ -34,7 +35,7 @@ $ poetry install
 ``` 
 note: this command not install documentation
 
-### Manage Environment variables
+#### Manage Environment variables
 
 In order for the application to work, environment variables must be defined. 
 
@@ -45,12 +46,12 @@ You can update this file with your own data.
 So that _environ_ takes into account this file you must add the environment variable _DJANGO_READ_DOT_ENV_FILE=True_
 by a traditional method or thanks to pyenv
 
-### Populate database
+#### Populate database
 
 ```
 $ python manage.py migrate
 ``` 
-### Create superuser
+#### Create superuser
 
 ```
 $ python manage.py createsuperuser
@@ -58,7 +59,7 @@ $ python manage.py createsuperuser
 
 Answer questions
 
-### Manage Assets
+#### Manage Assets
 
 Push js file into static/js directory
 ```
@@ -69,7 +70,7 @@ Push and watch stylesheet file into static/css directory
 $ npm run sass
 ``` 
 
-### Launch the application locally
+#### Launch the application locally
 
 ```
 $ python manage.py runserver

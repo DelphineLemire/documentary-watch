@@ -1,4 +1,6 @@
-# Prérequis
+# Installation
+
+## Prérequis
 
 Ce projet utilise :
 
@@ -7,20 +9,20 @@ Ce projet utilise :
 et beaucoup plus.
 - [Nodejs](https://nodejs.org/en), [npm](https://www.npmjs.com/) pour gérer les actifs
 
-#Mise en place
+## Mise en place
 
 Cette application utilise [le framework de Django](https://www.djangoproject.com).
 Merci de vous rapprocher de la documentation pour la prise en main de ce projet.
 
-## À des fins de test
+### À des fins de test
 
-### Cloner
+#### Cloner
 
 Cloner le référentiel localement
 ```
 $ git clone https://github.com/DelphineLemire/documentary-watch.git
 ```
-### Installer l'environnement virtuel
+####  Installer l'environnement virtuel
 
 Activer l'environnement virtuel
 ```
@@ -33,7 +35,7 @@ installation de poésie $
 ```
 note: cette commande n'installe pas la documentation
 
-### Gérer les variables d'environnement
+####  Gérer les variables d'environnement
 
 Pour que l'application fonctionne, des variables d'environnement doivent être définies.
 
@@ -44,12 +46,12 @@ Vous pouvez mettre à jour ce fichier avec vos propres données.
 Pour que _environ_ prenne en compte ce fichier vous devez ajouter la variable d'environnement _DJANGO_READ_DOT_ENV_FILE=True_
 par une méthode traditionnelle ou grâce au pyenv
 
-### Remplir la base de données
+####  Remplir la base de données
 
 ```
 $ python manage.py migre
 ```
-### Créer un superutilisateur
+####  Créer un superutilisateur
 
 ```
 $ python manage.py createsuperuser
@@ -57,7 +59,7 @@ $ python manage.py createsuperuser
 
 Répondez aux questions
 
-### Gérer les actifs
+####  Gérer les actifs
 
 Poussez le fichier js dans le répertoire statique/js
 ```
@@ -68,7 +70,7 @@ Poussez et regardez le fichier de feuille de style dans le répertoire statique/
 $ npm exécuter sass
 ```
 
-### Lancer l'application localement
+####  Lancer l'application localement
 
 ```
 $ python manage.py serveur d'exécution
