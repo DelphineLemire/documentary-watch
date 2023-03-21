@@ -7,33 +7,32 @@ License : GPLv3
 
 ## Why? 
 
-C'est un outil for organize my documentary watch . When I read posts website, 
-sometimes, I would like to read other old posts on the same topic but I can't find them. 
-This tool should allow me to keep an overview on a given subject.
-This project is for my personal use but I share on public repository as a portfolio's project. 
-
+C'est un outil pour organiser ma veille documentaire. Quand je lis des articles sur le site Web,
+parfois, j'aimerais lire d'autres anciens messages sur le même sujet mais je ne les trouve pas.
+Cet outil doit me permettre de garder une vue d'ensemble sur un sujet donné.
+Ce projet est pour mon usage personnel mais je le partage sur un référentiel public en tant que projet de portfolio.
 ## On the technical side 
 
-As a developer, I like to focus on features that are of value to my clients, so I rely on existing 
-tools that already implement a number of useful features for websites and their deployment.
+En tant que développeur, j'aime me concentrer sur les fonctionnalités qui ont de la valeur pour mes clients, donc je m'appuie sur les
+des outils qui implémentent déjà un certain nombre de fonctionnalités utiles pour les sites Web et leur déploiement.
 
 ### Django
 
-I chose to rely on the [django](https://www.djangoproject.com/) framework, an opensource project, with a large community, 
-providing generic functionalities to any web application. 
-For example, with django , I can quickly develop info admin screens and the notions of authentication 
-and access rights are natively made available.
+J'ai choisi de m'appuyer sur le framework [django](https://www.djangoproject.com/), un projet opensource, avec une large communauté,
+fournissant des fonctionnalités génériques à toute application Web.
+Par exemple, avec django, je peux développer rapidement des écrans d'administration d'informations et les notions d'authentification
+et les droits d'accès sont nativement mis à disposition.
 
 ### Poetry
 
-I was inspired by [cookiecutter-poetry](https://fpgmaas.github.io/cookiecutter-poetry/) to adapt the 
-project to the poetry package manager.
+Je me suis inspiré de [cookiecutter-poetry](https://fpgmaas.github.io/cookiecutter-poetry/) pour adapter le
+projet au gestionnaire du paquet de poésie.
 
 
-I chose [poetry](https://python-poetry.org/) because in terms of virtual environment management, it seems very successful to me; 
-limits omissions, and facilitates additions, updates, deletions of packages. 
+J'ai choisi [poetry](https://python-poetry.org/) car en termes de gestion d'environnement virtuel, cela me semble très réussi ;
+limite les oublis, et facilite les ajouts, mises à jour, suppressions de packages.
 
-I chose [ruff](https://github.com/charliermarsh/ruff) recommended by the cookiecutter-poetry project as a code quality control tool, because it includes a large 
-number of tools, in particular the versions of flake8 and it integrates perfectly with poetry.
+J'ai choisi [ruff](https://github.com/charliermarsh/ruff) recommandé par le projet cookiecutter-poetry comme outil de contrôle de la qualité du code, car il comprend un grand
+nombre d'outils, notamment les versions de flake8 et il s'intègre parfaitement à la poésie.
 
-Do not hesitate to comment to improve it. 
+N'hésitez pas à commenter pour l'améliorer.

@@ -1,78 +1,77 @@
-# Prerequisite
+# Prérequis
 
+Ce projet utilise :
 
-This project use: 
+- [git](https://git-scm.com/), pour le versionning
+- [Poetry](https://python-poetry.org/docs/), pour gérer l'environnement python et les dépendances des packages,
+et beaucoup plus.
+- [Nodejs](https://nodejs.org/en), [npm](https://www.npmjs.com/) pour gérer les actifs
 
-- [git](https://git-scm.com/), for versionning
-- [Poetry](https://python-poetry.org/docs/), to manage python environment and package dependencies, 
-and much more. 
-- [Nodejs](https://nodejs.org/en), [npm](https://www.npmjs.com/) to manage assets
+#Mise en place
 
-# Installation 
+Cette application utilise [le framework de Django](https://www.djangoproject.com).
+Merci de vous rapprocher de la documentation pour la prise en main de ce projet.
 
-This application use [Django's framework](https://www.djangoproject.com/).
-Please get closer to the documentation for the handling of this project.
+## À des fins de test
 
-## For test purpose
+### Cloner
 
-### Clone
-
-Clone the repository locally
+Cloner le référentiel localement
 ```
 $ git clone https://github.com/DelphineLemire/documentary-watch.git
-``` 
-### Install virtual environment
-
-Activate virtual environment
 ```
-$ poetry shell
-``` 
-Install package dependencies
+### Installer l'environnement virtuel
 
+Activer l'environnement virtuel
 ```
-$ poetry install
-``` 
-note: this command not install documentation
-
-### Manage Environment variables
-
-In order for the application to work, environment variables must be defined. 
-
-This project uses the package _[environ](https://github.com/joke2k/django-environ)_ to manage environment variables. 
-For this environ uses the _.env_ file at the root of the project. 
-You can update this file with your own data. 
-
-So that _environ_ takes into account this file you must add the environment variable _DJANGO_READ_DOT_ENV_FILE=True_
-by a traditional method or thanks to pyenv
-
-### Populate database
+$ coquille de poésie
+```
+Installer les dépendances du package
 
 ```
-$ python manage.py migrate
-``` 
-### Create superuser
+installation de poésie $
+```
+note: cette commande n'installe pas la documentation
+
+### Gérer les variables d'environnement
+
+Pour que l'application fonctionne, des variables d'environnement doivent être définies.
+
+Ce projet utilise le package _[environ](https://github.com/joke2k/django-environ)_ pour gérer les variables d'environnement.
+Pour cet environnement utilise le fichier _.env_ à la racine du projet.
+Vous pouvez mettre à jour ce fichier avec vos propres données.
+
+Pour que _environ_ prenne en compte ce fichier vous devez ajouter la variable d'environnement _DJANGO_READ_DOT_ENV_FILE=True_
+par une méthode traditionnelle ou grâce au pyenv
+
+### Remplir la base de données
+
+```
+$ python manage.py migre
+```
+### Créer un superutilisateur
 
 ```
 $ python manage.py createsuperuser
-``` 
-
-Answer questions
-
-### Manage Assets
-
-Push js file into static/js directory
 ```
-$ npm run babel 
-``` 
-Push and watch stylesheet file into static/css directory
-```
-$ npm run sass
-``` 
 
-### Launch the application locally
+Répondez aux questions
+
+### Gérer les actifs
+
+Poussez le fichier js dans le répertoire statique/js
+```
+$ npm courir babel
+```
+Poussez et regardez le fichier de feuille de style dans le répertoire statique/css
+```
+$ npm exécuter sass
+```
+
+### Lancer l'application localement
 
 ```
-$ python manage.py runserver
-``` 
-_Warning: this way of launching the application is reserved only for demo use or for 
-the development of the application._
+$ python manage.py serveur d'exécution
+```
+_Attention : ce mode de lancement de l'application est réservé uniquement à un usage démo ou
+le développement de l'application._

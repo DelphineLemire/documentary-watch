@@ -1,16 +1,16 @@
-# TODO's List
+# Liste de choses à faire
 
-## In the first time, I would develop admin's screens
+## Dans un premier temps, je développerais des écrans d'administration
 
- - [X] As an admin, I can manage contributor; e.g. post's author, person interviewed in a podcast.
- - [X] As an admin, I can manage theme; e.g.  Finance, Human Resource, Information Technology
- - [X] As an admin, I can manage topic per theme; e.g. invoices in digital format
- - [] As an Admin, I Manage contribution per contact, on a theme
+  - [X] En tant qu'administrateur, je peux gérer les contributeurs ; par exemple. auteur du post, personne interviewée dans un podcast.
+  - [X] En tant qu'administrateur, je peux gérer le thème ; par exemple. Finances, ressources humaines, technologies de l'information
+  - [X] En tant qu'administrateur, je peux gérer sujet par thème ; par exemple. factures au format numérique
+  - [] En tant qu'Admin, je gère la contribution par contact, sur un thème
 
-## In the second time, I would develop front's screens
+## Dans un deuxième temps, je développerais des écrans de façade
 
- - [] As a user, I can display the topics of a theme in order to have an overview of the topic likely 
-to be an opportunity. 
- - [] As a user, I can add a topic to follow in order to be up to date on the news
- - [] As a user, I can add a  contribution
- - [] As a user, I can look a contributor's contributions per topics
+  - [] En tant qu'utilisateur, je peux afficher les sujets d'un thème afin d'avoir un aperçu du sujet susceptible
+être une opportunité.
+  - [] En tant qu'utilisateur, je peux ajouter un sujet à suivre afin d'être au courant de l'actualité
+  - [] En tant qu'utilisateur, je peux ajouter une contribution
+  - [] En tant qu'utilisateur, je peux consulter les contributions d'un contributeur par sujet

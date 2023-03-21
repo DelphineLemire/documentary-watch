@@ -1,19 +1,19 @@
-# Develop
+# Développer
 
-## Code of conduct
+## Code de conduite
 
-As a developer, my intention is to stick to the standards and follow the documentation of the tools in order to promote 
-a quick start for a new person on the subject and to promote teamwork.
+En tant que développeur, mon intention est de coller aux standards et de suivre la documentation des outils afin de promouvoir
+un démarrage rapide pour une nouvelle personne sur le sujet et pour favoriser le travail d'équipe.
 
-- favor atomic commit
-- do not circumvent the operation of a tool without documenting it and especially without good reason.
-- don't forget to remove links to private repositories
+- favoriser le commit atomique
+- ne pas contourner le fonctionnement d'un outil sans le documenter et surtout sans raison valable.
+- n'oubliez pas de supprimer les liens vers les dépôts privés
 
-## Application architecture
+##Architecture des applications
 
-This application use [Django's framework](https://www.djangoproject.com/).
-Please get closer to the documentation for the handling of this project.
+Cette application utilise [le framework de Django](https://www.djangoproject.com/).
+Merci de vous rapprocher de la documentation pour la prise en main de ce projet.
 
-### [Substituting a custom User Model ](https://docs.djangoproject.com/en/4.1/topics/auth/customizing/#substituting-a-custom-user-model)
+### [Substituer le modèle utilisateur](https://docs.djangoproject.com/fr/4.1/topics/auth/customizing/#substituting-a-custom-user-model)
 
-This project replaces the user model with its own model.
+Ce projet remplace le modèle utilisateur par son propre modèle.
