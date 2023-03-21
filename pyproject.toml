@@ -50,7 +50,8 @@ django-coverage-plugin = "3.0.0" # https://github.com/nedbat/django_coverage_plu
 optional = true
 
 [tool.poetry.group.docs.dependencies]
-mkdocs = "^1.4.2" # https://github.com/mkdocs/mkdocs
+# mkdocs = "^1.4.2"
+mkdocs = {version = "^1.4.2", extras = ["i18n"]} # https://github.com/mkdocs/mkdocs
 mkdocs-material = "9.1.2" # https://github.com/squidfunk/mkdocs-material
 pymdown-extensions = "9.10" # https://github.com/facelessuser/pymdown-extensions
 mkdocstrings = {extras = ["python"], version = "^0.20.0"} # https://github.com/mkdocstrings/mkdocstrings

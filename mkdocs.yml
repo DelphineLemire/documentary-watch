@@ -11,16 +11,17 @@ repo_name: DelphineLemire/documentary-watch
 copyright: Maintained by <a href="https://delphinelemire.fr">Delphine</a>.
 
 nav:
-  - Home: README.md
-  - Install: INSTALL.md
-  - Develop: DEVELOP.md
-  - Todo: TODO.md
-  - Models : MODELS.md
+  - Home: en/README.md
+  - Install: en/INSTALL.md
+  - Develop: en/DEVELOP.md
+  - Todo: en/TODO.md
+  - Models: en/MODELS.md
 
 plugins:
   - search
   - mkdocstrings
 theme:
+  language: en
   name: material
   feature:
     tabs: true
@@ -42,8 +43,19 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
+
+
 markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.arithmatex:
       generic: true
+
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: French
+      link: /fr/
+      lang: fr
