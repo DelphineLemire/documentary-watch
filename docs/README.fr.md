@@ -5,13 +5,14 @@ License : GPLv3
 
 [Documentation](https://delphinelemire.github.io/documentary-watch/)
 
-## Why? 
+## Pourquoi? 
 
 C'est un outil pour organiser ma veille documentaire. Quand je lis des articles sur le site Web,
 parfois, j'aimerais lire d'autres anciens messages sur le même sujet mais je ne les trouve pas.
 Cet outil doit me permettre de garder une vue d'ensemble sur un sujet donné.
 Ce projet est pour mon usage personnel mais je le partage sur un référentiel public en tant que projet de portfolio.
-## On the technical side 
+
+## Côté
 
 En tant que développeur, j'aime me concentrer sur les fonctionnalités qui ont de la valeur pour mes clients, donc je m'appuie sur les
 des outils qui implémentent déjà un certain nombre de fonctionnalités utiles pour les sites Web et leur déploiement.
