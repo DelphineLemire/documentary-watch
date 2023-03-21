@@ -1,0 +1,36 @@
+{%  load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>{% translate "Documentary Watch" %}</title>
+    <link rel="icon" href="{% static 'images/logo.png' %}">
+    <link rel="stylesheet" href="{%  static 'css/style.css' %}?t=<? echo time(); ?>">
+</head>
+<body>
+<div class="container">
+    <header>
+        {% include '_header.html' %}
+    </header>
+    <main class="container" >
+        <div class="row">
+            <div class="col s12 m12 ">
+              {% block content %} {%  endblock %}
+            </div>
+        </div>
+    </main>
+    <footer>
+         {% include '_footer.html' %}
+    </footer>
+       {%  block javascript %}
+            <script src="{%  static 'js/materialize.js' %}"></script>
+           <script >
+         M.AutoInit();
+            </script>
+        {% endblock %}
+</div>
+</body>
+</html>

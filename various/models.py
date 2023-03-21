@@ -11,3 +11,7 @@ class Theme(Model):
 
     def __str__(self):
         return f"{self.label}"
+
+    class Meta:
+        verbose_name = _('Theme')
+        verbose_name_plural = _('Themes')

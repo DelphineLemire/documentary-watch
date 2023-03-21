@@ -1,5 +1,3 @@
-/.envrc
-/.env
 /.coverage
 /documentary_watch.db
 /.venv/
@@ -7,3 +5,4 @@
 /site/
 /.idea/
 __pycache__
+/node_modules/

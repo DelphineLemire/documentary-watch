@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-21 08:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: contributors/apps.py:8 contributors/models.py:22
+msgid "Contributors"
+msgstr "Contributeurs"
+
+#: contributors/models.py:12
+msgid "First Name"
+msgstr "Prénom"
+
+#: contributors/models.py:13
+msgid "Last Name"
+msgstr "Nom"
+
+#: contributors/models.py:14
+msgid "Distinction"
+msgstr ""
+
+#: contributors/models.py:15
+msgid "description"
+msgstr ""
+
+#: contributors/models.py:21
+msgid "Contributor"
+msgstr "Contributeur"

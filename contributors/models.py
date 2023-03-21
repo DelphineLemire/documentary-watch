@@ -16,3 +16,7 @@ class Contributor(Model):
 
     def __str__(self) -> str:
         return f"{self.first_name}, {self.last_name}: {self.distinction}"
+
+    class Meta:
+        verbose_name = _('Contributor')
+        verbose_name_plural = _('Contributors')

@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-21 11:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: documentary_watch/settings.py:137
+msgid "French"
+msgstr ""
+
+#: documentary_watch/settings.py:138
+msgid "English"
+msgstr ""
+
+#: documentary_watch/urls.py:24
+msgid "My Index Title"
+msgstr "Menu"
+
+#: documentary_watch/urls.py:25
+msgid "My Site Administration"
+msgstr "Administration du site"
+
+#: documentary_watch/urls.py:26
+msgid "My Site Management"
+msgstr ""
+
+#: templates/_footer.html:17
+msgid "More Links"
+msgstr "Plus de Liens"
+
+#: templates/_header.html:13 templates/_header.html:21
+msgid "Documentation"
+msgstr ""
+
+#: templates/_header.html:15 templates/_header.html:24
+msgid "Sign out"
+msgstr "Se déconnecter"
+
+#: templates/base.html:9
+msgid "Documentary Watch"
+msgstr ""
+
+#: templates/documentary_watch/index.html:9
+msgid ""
+"\n"
+"          It is a tool for organize my documentary watch . When I read posts "
+"website,\n"
+"sometimes, I would like to read other old posts on the same topic but I "
+"can't find them.\n"
+"This tool should allow me to keep an overview on a given subject.\n"
+"This project is for my personal use but I share on public repository as a "
+"portfolio's project.\n"
+msgstr ""
+"\n"
+"C'est un outil pour organiser ma recherche documentaire. Quand je lis des "
+"posts, des articles sur les sites web,\n"
+"parfois, j'aimerais pouvoir relire d'anciens posts sur le même sujet mais je "
+"ne les retrouve pas.\n"
+"Cet outil devrait me permettre de conserver une vue d'ensemble sur les "
+"sujets.\n"
+"Cet outil est pour mon usage personnel mais je le partage en public afin "
+"d'ajouter un projet à mon portfolio.  \n"
+
+#~ msgid "Label"
+#~ msgstr "Libellé"
+
+#~ msgid "description"
+#~ msgstr "description"
+
+#~ msgid "resume"
+#~ msgstr "résumé"
+
+#~ msgid "url"
+#~ msgstr "url"
+
+#~ msgid "View this category in:"
+#~ msgstr "Voir les catégories en:"
+
+#~ msgid "Welcome to our page"
+#~ msgstr "Bienvenue sur notre page"
+
+#~ msgid "First Name"
+#~ msgstr "Prénom"
+
+#, fuzzy
+#~| msgid "First Name"
+#~ msgid "Last Name"
+#~ msgstr "Prénom"

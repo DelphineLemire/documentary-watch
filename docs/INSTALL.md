@@ -6,6 +6,7 @@ This project use:
 - [git](https://git-scm.com/), for versionning
 - [Poetry](https://python-poetry.org/docs/), to manage python environment and package dependencies, 
 and much more. 
+- [Nodejs](https://nodejs.org/en), [npm](https://www.npmjs.com/) to manage assets
 
 # Installation 
 
@@ -56,6 +57,17 @@ $ python manage.py createsuperuser
 ``` 
 
 Answer questions
+
+### Manage Assets
+
+Push js file into static/js directory
+```
+$ npm run babel 
+``` 
+Push and watch stylesheet file into static/css directory
+```
+$ npm run sass
+``` 
 
 ### Launch the application locally
 

@@ -1,7 +1,9 @@
 [tool.poetry]
 name = "documentary-watch"
 version = "0.1.2"
+license = "GPL-3.0-or-later"
 description = ""
+
 authors = ["DelphineLemire <delphine.lemire@gmail.com>"]
 readme = "docs/README.md"
 packages = [{include = "documentary_watch"}]
@@ -17,6 +19,7 @@ django-environ = "0.10.0" # https://github.com/joke2k/django-environ
 
 [tool.poetry.group.dev.dependencies]
 django-debug-toolbar = "3.8.1"  # https://github.com/jazzband/django-debug-toolbar
+django-extensions = "3.2.1" # https://github.com/django-extensions/django-extensions
 
 # Code quality
 # ------------------------------------------------------------------------------
