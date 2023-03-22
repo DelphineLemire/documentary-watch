@@ -11,11 +11,11 @@ repo_name: DelphineLemire/documentary-watch
 copyright: Maintained by <a href="https://delphinelemire.fr">Delphine</a>.
 
 nav:
-    - Home: README.fr.md
-    - Install: INSTALL.fr.md
-    - Develop: DEVELOP.fr.md
-    - Todo: TODO.fr.md
-    - Models: MODELS.fr.md
+    - Home: README.md
+    - Usecase: USECASE.md
+    - Install: INSTALL.md
+    - Develop: DEVELOP.md
+    - Models: MODELS.md
 
 plugins:
   - search
@@ -40,7 +40,7 @@ plugins:
             Home: Accueil
             Install: Installation
             Develop: Développement
-            Todo: Todo
+            Usecase: Cas d'usage
             Models: Modèles
 
 theme:
