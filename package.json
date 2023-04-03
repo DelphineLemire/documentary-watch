@@ -30,6 +30,6 @@
     "sass": "^1.59.3"
   },
   "dependencies": {
-    "materialize-css": "^1.0.0-rc.2"
+    "materialize-css": "^1.0.0"
   }
 }
