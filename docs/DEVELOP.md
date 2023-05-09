@@ -11,7 +11,7 @@ a quick start for a new person on the subject and to promote teamwork.
 
 ## Application architecture
 
-This application use [Django's framework](https://www.djangoproject.com/).
+This application uses [Django's framework](https://www.djangoproject.com/).
 Please get closer to the documentation for the handling of this project.
 
 ### [Substituting a custom User Model ](https://docs.djangoproject.com/en/4.1/topics/auth/customizing/#substituting-a-custom-user-model)
@@ -20,7 +20,7 @@ This project replaces the user model with its own model.
 
 ### Backend
 
-This project use the default Django's admin 
+This project uses the default [Django's admin](https://docs.djangoproject.com/en/4.1/ref/contrib/admin/) 
 
 ### Api
 
@@ -28,8 +28,10 @@ This project use the default Django's admin
 
 ### Frontend
 
-This project use Framework CSS Bulma and Vanilla Javascript for async
-[TODO]
+This project uses [Framework CSS Bulma](https://bulma.io/) and Vanilla Javascript.
+In a first time, It uses [Bulma's cdn link](https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css).
+
+[IN PROGRESS]
 
 ## Internationalization
 
@@ -49,14 +51,14 @@ python manage.py compilemessages
 
 ## Code Quality 
 
-This project use a pre commit hook, but you can use next command to control code's quality
+This project uses a pre commit hook, but you can use next command to control code's quality
 
 ```bash
 make check
 ```
 ## Documentation
 
-This project Mkdocs with material theme for documentation.
+This project uses Mkdocs with material theme for documentation.
 
 You can test documentation generation with next command
 
