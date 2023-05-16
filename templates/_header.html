@@ -24,20 +24,21 @@
 
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
-          More
+          {% trans "Technical" %}
         </a>
 
         <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://www.djangoproject.com/" >{% trans "Python Framework" %} </a>
           <a class="navbar-item" href="https://bulma.io/" >{% trans "CSS Framework" %} </a>
-
-          <a class="navbar-item" href="https://linkedin.com/in/delphine-lemire">{% trans "Contact" %} </a>
-
           <hr class="navbar-divider">
           <a class="navbar-item" href="https://github.com/DelphineLemire/documentary-watch/issues">
              {% trans "Report an issue" %}
           </a>
         </div>
       </div>
+
+        <a class="navbar-item" href="https://linkedin.com/in/delphine-lemire">{% trans "Contact" %} </a>
+
     </div>
 
     <div class="navbar-end">

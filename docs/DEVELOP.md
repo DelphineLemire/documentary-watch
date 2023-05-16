@@ -41,7 +41,7 @@ Make sure that a *locale/fr/LC_MESSAGES* directory is present in the directory o
 
 In order to generate translation file *po* 
 ```bash
-python manage.py makemessages
+python manage.py makemessages --all
 ```
 After populated translated sentences, you must made to generate file *mo*, used to translate website
 ```bash

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-21 11:16+0000\n"
+"POT-Creation-Date: 2023-05-10 08:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,11 +20,11 @@ msgstr ""
 
 #: documentary_watch/settings.py:137
 msgid "French"
-msgstr ""
+msgstr "Français"
 
 #: documentary_watch/settings.py:138
 msgid "English"
-msgstr ""
+msgstr "Anglais"
 
 #: documentary_watch/urls.py:24
 msgid "My Index Title"
@@ -36,17 +36,37 @@ msgstr "Administration du site"
 
 #: documentary_watch/urls.py:26
 msgid "My Site Management"
-msgstr ""
+msgstr "Gestion de mon site"
 
 #: templates/_footer.html:17
 msgid "More Links"
 msgstr "Plus de Liens"
 
-#: templates/_header.html:13 templates/_header.html:21
+#: templates/_header.html:22
 msgid "Documentation"
 msgstr ""
 
-#: templates/_header.html:15 templates/_header.html:24
+#: templates/_header.html:27
+msgid "Technical"
+msgstr "Technique"
+
+#: templates/_header.html:31
+msgid "Python Framework"
+msgstr "Framework python"
+
+#: templates/_header.html:32
+msgid "CSS Framework"
+msgstr "Framework CSS"
+
+#: templates/_header.html:35
+msgid "Report an issue"
+msgstr "Signaler un problème"
+
+#: templates/_header.html:40
+msgid "Contact"
+msgstr ""
+
+#: templates/_header.html:50
 msgid "Sign out"
 msgstr "Se déconnecter"
 
@@ -54,16 +74,28 @@ msgstr "Se déconnecter"
 msgid "Documentary Watch"
 msgstr ""
 
-#: templates/documentary_watch/index.html:9
+#: templates/documentary_watch/index.html:10
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "          It is a tool for organize my documentary watch . When I read "
+#| "posts website,\n"
+#| "sometimes, I would like to read other old posts on the same topic but I "
+#| "can't find them.\n"
+#| "This tool should allow me to keep an overview on a given subject.\n"
+#| "This project is for my personal use but I share on public repository as a "
+#| "portfolio's project.\n"
 msgid ""
 "\n"
-"          It is a tool for organize my documentary watch . When I read posts "
-"website,\n"
-"sometimes, I would like to read other old posts on the same topic but I "
-"can't find them.\n"
-"This tool should allow me to keep an overview on a given subject.\n"
-"This project is for my personal use but I share on public repository as a "
-"portfolio's project.\n"
+"            It is a tool for organize my documentary watch . When I read "
+"posts website,\n"
+"            sometimes, I would like to read other old posts on the same "
+"topic but I can't find them.\n"
+"            This tool should allow me to keep an overview on a given "
+"subject.\n"
+"            This project is for my personal use but I share on public "
+"repository as a portfolio's project.\n"
+"       "
 msgstr ""
 "\n"
 "C'est un outil pour organiser ma recherche documentaire. Quand je lis des "
@@ -74,6 +106,10 @@ msgstr ""
 "sujets.\n"
 "Cet outil est pour mon usage personnel mais je le partage en public afin "
 "d'ajouter un projet à mon portfolio.  \n"
+
+#: templates/documentary_watch/index.html:20
+msgid "Themes"
+msgstr "Thèmes"
 
 #~ msgid "Label"
 #~ msgstr "Libellé"
