@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-21 12:41+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: documentary_watch/settings.py:137
+msgid "French"
+msgstr "Français"
+
+#: documentary_watch/settings.py:138
+msgid "English"
+msgstr "Anglais"
+
+#: documentary_watch/urls.py:24
+msgid "My Index Title"
+msgstr "Sommaire"
+
+#: documentary_watch/urls.py:25
+msgid "My Site Administration"
+msgstr "Administration du site web"
+
+#: documentary_watch/urls.py:26
+msgid "My Site Management"
+msgstr ""
+
+#: templates/_footer.html:17
+msgid "More Links"
+msgstr "Voir plus"
+
+#: templates/_header.html:18
+msgid "Home"
+msgstr "Accueil"
+
+#: templates/_header.html:22
+msgid "Documentation"
+msgstr ""
+
+#: templates/_header.html:27
+msgid "Technical"
+msgstr "Technique"
+
+#: templates/_header.html:31
+msgid "Python Framework"
+msgstr "Framework Python"
+
+#: templates/_header.html:32
+msgid "CSS Framework"
+msgstr "Framework CSS"
+
+#: templates/_header.html:35
+msgid "Report an issue"
+msgstr "Soumettre un problème"
+
+#: templates/_header.html:40
+msgid "Contact"
+msgstr ""
+
+#: templates/_header.html:49
+msgid "Admin"
+msgstr ""
+
+#: templates/_header.html:52
+msgid "Sign out"
+msgstr "Me déconnecter"
+
+#: templates/_header.html:56
+#, fuzzy
+#| msgid "Sign out"
+msgid "Sign in"
+msgstr "Me déconnecter"
+
+#: templates/base.html:9
+msgid "Documentary Watch"
+msgstr ""
+
+#: templates/documentary_watch/index.html:10
+msgid ""
+"It is a tool for organize my documentary watch . When I read posts website, "
+"sometimes, I would like to read other old posts on the same topic but I "
+"can't find them. This tool should allow me to keep an overview on a given "
+"subject. This project is for my personal use but I share on public "
+"repository as a portfolio's project."
+msgstr ""
+"C' est un outil pour organiser ma gestion documentaire . Quand je lis des "
+"posts sur un site Web , parfois, j'aimerais accéder rapidement à des posts "
+"plus anciens. Cet outil permet de conserver une vue d'ensemble  sur un "
+"sujet. Ce projet est pour mon usage personnel, je le mets à disposition dans "
+"un répertoire Github en tant que portfolio."
+
+#: templates/documentary_watch/index.html:18
+msgid "Themes"
+msgstr "Thèmes"
+
+#: templates/documentary_watch/index.html:33
+msgid "by"
+msgstr "par"
