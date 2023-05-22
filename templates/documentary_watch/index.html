@@ -7,27 +7,38 @@
       Documentary watch
     </p>
     <p class="subtitle">
-      {% blocktranslate %}
-            It is a tool for organize my documentary watch . When I read posts website,
-            sometimes, I would like to read other old posts on the same topic but I can't find them.
-            This tool should allow me to keep an overview on a given subject.
-            This project is for my personal use but I share on public repository as a portfolio's project.
-       {% endblocktranslate %}
+{% blocktranslate trimmed %}It is a tool for organize my documentary watch . When I read posts website,
+sometimes, I would like to read other old posts on the same topic but I can't find them.
+This tool should allow me to keep an overview on a given subject.
+This project is for my personal use but I share on public repository as a portfolio's project.{% endblocktranslate %}
     </p>
   </div>
 </section>
 <section class="section">
   <h1 class="title">{% translate "Themes" %}</h1>
-   <ul class="collapsible">
-                {% for theme in themes %}
-               <li>
-                    <div class="collapsible-header">
+  {% for theme in themes %}
+          <nav class="panel ">
+              <h2 class="panel-heading collapse is-clickable" data-target="theme_{{ theme }}">
+                     {{ theme }}
+              </h2>
+              <div id="theme_{{ theme }}" class="is-hidden ">
+                   {% for topic in theme.topics.all %}
+                  <a class="panel-block collapse " data-target="theme_{{ theme }}_topic_{{ topic }}">
+                        {{ topic }}
+                  </a>
+                   <ul id="theme_{{ theme }}_topic_{{ topic }}" class="p-5 is-hidden " >
+                      {% for contribution in topic.contributions.all %}
+                            <li>
+                                  <a href="{{ contribution.url}} "> {{ contribution.resume}}
+                                    {% translate "by" %} {{ contribution.contributor}}
+                                  </a>
+                            </li>
+                      {% endfor %}
+                   </ul>
+                  {% endfor %}
+              </div>
+        </nav>
+    {% endfor %}
 
-                        {{ theme }}
-
-                    <div class="collapsible-body"><p></p></div>
-                </li>
-            {% endfor %}
-       </ul>
 </section>
 {% endblock %}
