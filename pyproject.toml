@@ -13,7 +13,7 @@ python = "^3.9"
 
 # Django
 # ------------------------------------------------------------------------------
-django = "4.1.9"  # https://www.djangoproject.com/
+django = "4.1.10"  # https://www.djangoproject.com/
 django-environ = "0.10.0" # https://github.com/joke2k/django-environ
 #django-allauth ="0.52.0"  # https://github.com/pennersr/django-allauth
 
