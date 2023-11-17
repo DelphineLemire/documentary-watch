@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+         <loc>https://github.com/DelphineLemire/documentary-watch/</loc>
+         <lastmod>2023-11-17</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://github.com/DelphineLemire/documentary-watch/en/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://github.com/DelphineLemire/documentary-watch/fr/"/>
+         
+    </url>
+    <url>
+         <loc>https://github.com/DelphineLemire/documentary-watch/DEVELOP/</loc>
+         <lastmod>2023-11-17</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://github.com/DelphineLemire/documentary-watch/en/DEVELOP/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://github.com/DelphineLemire/documentary-watch/fr/DEVELOP/"/>
+         
+    </url>
+    <url>
+         <loc>https://github.com/DelphineLemire/documentary-watch/INSTALL/</loc>
+         <lastmod>2023-11-17</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://github.com/DelphineLemire/documentary-watch/en/INSTALL/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://github.com/DelphineLemire/documentary-watch/fr/INSTALL/"/>
+         
+    </url>
+    <url>
+         <loc>https://github.com/DelphineLemire/documentary-watch/MODELS/</loc>
+         <lastmod>2023-11-17</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://github.com/DelphineLemire/documentary-watch/en/MODELS/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://github.com/DelphineLemire/documentary-watch/fr/MODELS/"/>
+         
+    </url>
+    <url>
+         <loc>https://github.com/DelphineLemire/documentary-watch/USECASE/</loc>
+         <lastmod>2023-11-17</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://github.com/DelphineLemire/documentary-watch/en/USECASE/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://github.com/DelphineLemire/documentary-watch/fr/USECASE/"/>
+         
+    </url>
+</urlset>
